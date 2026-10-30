@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 // Edit this message and push to trigger a new blue/green deployment
 const MESSAGE = 'Hello from AWS CI/CD Capstone Project!';
-const VERSION = process.env.APP_VERSION || 'v1';
+const VERSION = process.env.APP_VERSION || 'v2';
 
 app.disable('x-powered-by');
 
